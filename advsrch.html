@@ -4,64 +4,81 @@
     <title>Search</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="adv-body">
+    <div class="header">
+      <div class="header-links">
+        <p>Google</p>
+        <a href="index.html">Google Search</a>
+      </div>
+    </div>
+    <h2>Advanced Search</h2>
     <div class="container">
-        <form action="https://google.com/search">
-        <h2>Find pages with...</h2>
-        <div class="outer-box">
+      <form action="https://google.com/search">
+        <h3>Find pages with...</h3>
+        <div class="search-group">
+          <div class="outer-box">
             <div class="inner-box">
-            <div>
+              <div>
                 <label for="all-words">all these words:</label>
+              </div>
             </div>
-            </div>
-        </div>
-        <div class="search-box">
+          </div>
+          <div class="search-box">
             <div class="input-box">
-            <input id="all-words" type="text" name="as_q" />
+              <input id="all-words" type="text" name="as_q" />
             </div>
+          </div>
         </div>
 
-        <div class="outer-box">
+        <div class="search-group">
+          <div class="outer-box">
             <div class="inner-box">
-            <div>
+              <div>
                 <label for="exact-words">this exact word or phrase:</label>
+              </div>
             </div>
-            </div>
-        </div>
-        <div class="search-box">
+          </div>
+          <div class="search-box">
             <div class="input-box">
-            <input id="exact-words" type="text" name="as_epq" />
+              <input id="exact-words" type="text" name="as_epq" />
             </div>
+          </div>
         </div>
 
-        <div class="outer-box">
+        <div class="search-group">
+          <div class="outer-box">
             <div class="inner-box">
-            <div>
+              <div>
                 <label for="any-words">any of these words:</label>
+              </div>
             </div>
-            </div>
-        </div>
-        <div class="search-box">
+          </div>
+          <div class="search-box">
             <div class="input-box">
-            <input id="any-words" type="text" name="as_oq" />
+              <input id="any-words" type="text" name="as_oq" />
             </div>
+          </div>
         </div>
 
-        <div class="outer-box">
+        <div class="search-group">
+          <div class="outer-box">
             <div class="inner-box">
-            <div>
+              <div>
                 <label for="none-words">none of these words:</label>
+              </div>
             </div>
-            </div>
-        </div>
-        <div class="search-box">
+          </div>
+          <div class="search-box">
             <div class="input-box">
-            <input id="none-words" type="text" name="as_eq" />
+              <input id="none-words" type="text" name="as_eq" />
             </div>
+          </div>
         </div>
-        <div>
-        <input type="submit" value="advanced search" />
-        </form>
+
+        <div class="adv-button">
+          <input type="submit" value="Advanced Search" />
         </div>
+      </form>
+    </div>
   </body>
 </html>
