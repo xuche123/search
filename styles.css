@@ -1,24 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.adv-body {
-  background-color: #202124;
-  color: #BDC1C6;
-
-}
-.adv-body .header .header-links a {
-  color: #BDC1C6;
+label {
+  font-size: 13px;
+  font-weight: 400;
 }
 
 h2 {
-  color: #F28B82;
+  color: #d93025;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 h3 {
-  color:#FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .outer-box {
@@ -30,22 +29,54 @@ h3 {
   padding-bottom: 5px;
 }
 
-.header-links a {
+.header-links {
+  margin-left: auto;
+  font-family: sans-serif;
+  font-size: small;
+}
+
+.header-links a,
+.header-links-adv div a {
   color: black;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
 }
 
-.header , .header-links {
-    display: flex;
-    align-items: center;
+.header-links,
+.header-index {
+  display: flex;
+  align-items: center;
 }
 
-.header-links {
-   margin-left: auto;
-   font-family: sans-serif;
-   font-size: small;
+.header-links-adv {
+  font-family: sans-serif;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-bottom: 40px;
+}
+
+#header-1 {
+  padding-top: 10px;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+#header-1 span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#header-2 {
+  flex-grow: 3;
+}
+
+#header-3 a {
+  flex-grow: 1;
+  text-decoration: none;
 }
 
 .center {
@@ -56,17 +87,18 @@ h3 {
 }
 
 .logo {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 85px;
   padding-top: 175px;
   padding-bottom: 75x;
 }
 
 #g {
-  color:#4285f4
+  color: #4285f4;
 }
 
-#o1, #e {
+#o1,
+#e {
   color: #db4437;
 }
 
@@ -75,10 +107,10 @@ h3 {
 }
 
 #l {
-  color:#0f9d58;
+  color: #0f9d58;
 }
 
-.center .searchbar input[type="text"]{
+.center .searchbar input[type="text"] {
   border-color: #bcbaba;
   border-style: solid;
   border-width: 1px;
@@ -105,31 +137,37 @@ h3 {
 }
 
 input[value="Advanced Search"] {
-  background-color: #8AB4F8;
+  background-color: #4d90fe;
   border-width: 0px;
   padding: 12px 10px 12px 10px;
   border-radius: 2px;
+  color: #ffffff;
+  font-weight: 700;
 }
 
 .adv-button {
   margin-top: 10px;
-  width: 72%;
+  width: 75%;
   float: right;
 }
 
-.container, h2 {
-   margin-left: 30px;
+hr {
+  border-color: #dcdcdc;
+}
+
+.container,
+h2 {
+  margin-left: 30px;
 }
 
 .input-box input {
-  width:300px;
-  background-color: #202124;
-  border: 2px solid #2D2E30;
-  color:#ffffff;
+  width: 300px;
+  background-color: #ffffff;
+  border: 1px solid #b9b9b9;
+  color: #ffffff;
+  padding: 5px;
 }
 
-.header p {
-  float: left;
-  font-size: large;
-  margin-left: 0;
+.search-group {
+  padding-bottom: 20px;
 }
